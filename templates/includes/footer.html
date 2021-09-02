@@ -1,0 +1,29 @@
+<footer class="section-footer border-top">
+	<div class="container">
+		<section class="footer-bottom border-top row">
+			<div class="col-md-2">
+				<p class="text-muted"> &copy 2021 Fashion Castle </p>
+			</div>
+			<div class="col-md-8 text-md-center">
+				<span  class="px-2">E-Mail</span>
+				<span  class="px-2">Phone Number</span>
+				<span  class="px-2">Street Address</span>
+			</div>
+			<div class="col-md-2 text-md-right text-muted">
+				<i class="fab fa-lg fa-cc-visa"></i>
+				<i class="fab fa-lg fa-cc-paypal"></i>
+				<i class="fab fa-lg fa-cc-mastercard"></i>
+			</div>
+		</section>
+	</div><!-- //container -->
+</footer>
+<script>
+	$(document).ready(function() {
+		$('.thumb a').click(function(e){
+			e.preventDefault(); //prevents opening image in new tab
+			$('.mainImage img').attr('src', $(this).attr("href")); //changes main image to what you clicked
+		})
+	})
+</script>
+</body>
+</html>

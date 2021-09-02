@@ -1,0 +1,32 @@
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<!-- ========================= SECTION MAIN ========================= -->
+<section class="section-intro padding-y-sm">
+<div class="container hero-div">
+	<div class="text-center">
+		{% include 'includes/alerts.html' %}
+	</div>
+	<a href="{% url 'store' %}">
+<div class="intro-banner-wrap padding-y-lg hero">
+
+</div>
+</a>
+</div> <!-- container //  -->
+</section>
+<!-- ========================= SECTION MAIN END// ========================= -->
+
+<!-- ========================= SECTION  ========================= -->
+
+<!-- ========================= SECTION  END// ========================= -->
+
+
+
+</body>
+</html>
+
+{% endblock %}

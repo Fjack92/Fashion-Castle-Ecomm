@@ -1,0 +1,24 @@
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+    <div class="col">
+        <h1>About Us</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8 col-xs-12">
+        <p>Born and raised in Haiti, Marie Pascale Francois is a Charismatic, intelligent, and hard working entrepreneur who has overcome all adversities placed in front of her. Ever  since she was a child, she always knew that she wanted to go into business for herself. Her mother always told her that she was a queen, and that she would one day own a castle.</p>
+        <p>This is the reason that Pascale founded Fashion Castle, in 2021 after doing what so many of us have done through out the Corona Virus pandemic, and chose to follow our dreams and take chances in uncertain times. She believes that every woman is a queen, and deserves access to products that can give royal beauty, at an affordable price.</p>
+        <p>We specialize in products that will assist in achieving fair skin, contouring and shaping the body, and hair enhancements. We use all natural ingredients for our home made products, and source from only the highest quality distributors and brands.</p>
+    </div>
+    <div class="col-lg-4 col-xs-12">
+        <img class="img-fluid about-me-pic" src="{% static './images/aboutme.jpeg' %}">
+    </div>
+</div>
+{% endblock %}
